@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* not Work this property */
+    position: sticky;
+    top: 0;
+}
+
+/* CSS for logo */
+.logo {
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    margin: -9px -9px;
+}
+
+.logo img {
+    width: 33%;
+    border: 2px solid white;
+    border-radius: 5rem;
+}
+
+.logo a img{
+    align-items: center;
+    margin: auto;
+    display: flex;
+}
+
+.navlist {
+    /* background-color: yellow; */
+    width: 61%;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+
+}
+
+.navlist li {
+    list-style: none;
+    padding: 20px 30px;
+}
+
+.navlist li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-shadow: 0.5px 0.5px whitesmoke;
+}
+
+.navlist li a:hover {
+    color: rgb(33, 39, 61);
+}
+
+
+.rightnav {
+    /* background-color: blueviolet; */
+    width: 33%;
+    text-align: right;
+    padding-right: 13px;
+}
+
+#search {
+    padding: 8px 11px;
+    color: black;
+    font-size: 1em;
+    border: 2px solid #808080;
+    border-radius: 12px;
+}
+
+/* this is set image as background for navigation bar */
+.background {
+    background: rgb(0, 0, 0, 0.7) url(../img/bgNavbrImage.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+/* Here start second section */
+
+.secondSection {
+    height: 100vh;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firstHalf {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secondHalf {
+    width: 30%;
+}
+
+.secondHalf img {
+    width: 70%;
+    border: 2px solid white;
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+}
+
+.text-big {
+    font-size: 2.4em;
+}
+
+.text-sm {
+    font-size: 1.2em;
+
+}
+
+.btn {
+    padding: 7px 12px;
+    margin: 16px 6px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-sm {
+    padding: 8px 20px;
+    vertical-align: middle;
+}
+
+.btn-dark {
+    color: black;
+    border: 2px solid black;
+
+}
+
+.btn-right {
+    float: right;
+}
+
+/* here start third section */
+.sections {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+    padding: 33px 0px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.rightSec {
+    flex-direction: row-reverse;
+}
+
+.thumbnail img {
+    width: 80%;
+    border: 2px solid white;
+    border-radius: 25px;
+    display: block;
+}
+
+.sectionTag {
+    padding: 16px 0px;
+}
+
+.sectionsubTag {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact {
+    background-color: #e7e7e7;
+    height: 45rem;
+    padding: 33px;
+}
+
+.text-center {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.contact-form {
+    max-width: 43rem;
+    margin: 33px auto;
+}
+
+.contact-form-item {
+    width: 100%;
+    font-size: 1.5em;
+    margin: 19px 0px;
+    padding: 7px 13px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+.text-footer {
+    text-align: center;
+    font-size: 1.4em;
+    display: flex;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 0px;
+    color: white;
+}
+
+.burger {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    top: 33px;
+    right: 33px;
+}
+
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
